@@ -1,7 +1,6 @@
 package com.example.demo;
 
 import com.nimbusds.jose.JOSEException;
-import com.nimbusds.jose.jwk.JWK;
 import com.nimbusds.jose.jwk.JWKSet;
 import com.nimbusds.jose.jwk.RSAKey;
 import com.nimbusds.jose.jwk.source.JWKSource;
@@ -29,7 +28,7 @@ import org.springframework.security.oauth2.jwt.NimbusJwtEncoder;
 import org.springframework.security.provisioning.InMemoryUserDetailsManager;
 import org.springframework.security.web.SecurityFilterChain;
 
-@Configuration
+//@Configuration
 public class JwtSecurityConfiguration {
 
   @Bean
